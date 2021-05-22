@@ -1,0 +1,16 @@
+
+.info{
+    text-align: left;
+}
+.info__list{
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.info__list__item{
+    margin-bottom: 30px;
+}
+.info > a{
+    margin-right: 30px;
+    font-size: 36px;
+}

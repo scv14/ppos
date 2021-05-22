@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Roboto', Arial, Helvetica, sans-serif;
+    
+}
+a{
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    text-decoration: underline;
+}
+.block{
+    text-align: center;
+}
+.inside{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    color: #0f0f0f;
+    font-size: 32px;
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.page{
+    padding: 50px 0 ;
+}
+
+
+/* App */
+.navigation{
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgb(221, 221, 221) ;
+    width: 100%;
+
+}
+.logo__navigation{
+    width: 80px;
+}
+.header{
+    padding: 20px 0;
+}
+.header__navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.header__list{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+.header__list__item{
+    margin-right: 24px;
+}
+.header__list__item > a{
+    color: #000;
+}
+
+
+
+/******************************************/
+/******************************************/
+/******************************************/
+/*************** Footer *******************/
+/******************************************/
+/******************************************/
+/******************************************/
+
+
+.footer{
+    background-color: #000;
+}

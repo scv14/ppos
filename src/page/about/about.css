@@ -1,0 +1,14 @@
+.inside__about{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 0 0 50px 0;
+}
+.about__img{
+    border-radius: 10px;
+}
+.about__title{
+    font-size: 32px;
+    font-weight: 700;
+}

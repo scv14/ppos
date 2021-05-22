@@ -1,0 +1,37 @@
+.documents__title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.document__title{
+    font-weight: 700;
+    color: #000;
+    margin-top:  0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+}
+.documents{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.document{
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(175, 175, 175) ;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.document__link{
+    width: 30%;
+}
+.document__img{
+    font-size: 128px;
+    color: #000;
+}

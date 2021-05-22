@@ -1,0 +1,9 @@
+.ppos{
+    background: #fff;  
+    padding: 30px;  
+}
+.description{
+    text-align: justify;
+    width: 40%;
+    line-height: 1.5;
+}
